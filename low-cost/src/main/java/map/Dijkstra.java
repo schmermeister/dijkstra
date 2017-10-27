@@ -39,6 +39,7 @@ public class Dijkstra {
 	public List<String> calculate() {
 		while (!q.isEmpty()) {
 			final Entry<String, Integer> uEntry = sortedSet.first();
+
 			CityNode uNode = null;
 			for (final CityNode cityNode : q) {
 				if (cityNode.getName().equals(uEntry.getKey())) {
