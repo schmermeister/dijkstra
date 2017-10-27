@@ -16,6 +16,7 @@ import java.util.TreeSet;
  * See {@code https://de.wikipedia.org/wiki/Dijkstra-Algorithmus}
  * 
  * @author André Schmer
+ * @since v0.1
  *
  */
 public class Dijkstra {
@@ -34,7 +35,7 @@ public class Dijkstra {
 	/**
 	 * Calculates the shortest (low cost) way through a given graph.
 	 * 
-	 * @return a list with the involved nodes from start to target includinng thos nodes.
+	 * @return a list with the involved nodes from start to target includinng those nodes.
 	 */
 	public List<String> calculate() {
 		while (!q.isEmpty()) {
